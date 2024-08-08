@@ -16,8 +16,8 @@ type usuario struct {
 
 func home(w http.ResponseWriter,r *http.Request)  {
 	u := usuario{
-		"Beatriz",
-		"beka_carvalho@hotmail.com",
+		"Hugo Gatti",
+		"hugo.gatti@hotmail.com",
 	}
 
 	templates.ExecuteTemplate(w, "home.html", u)	
